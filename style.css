@@ -1,3 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.css {
+    display: flex;
+    justify-content: center;
+}
+
+.js {
+    display: flex;
+    justify-content: center;
+}
+
 :root {
     --backgroundCss: red;
     --h2CssColor: white;
