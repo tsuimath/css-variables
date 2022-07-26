@@ -1,0 +1,27 @@
+:root {
+    --backgroundCss: red;
+    --h2CssColor: white;
+    --mediaJs: blue;
+}
+
+.css {
+    background-color: var(--backgroundCss);
+}
+
+h2.css {
+    color: var(--h2CssColor);
+}
+
+.js {
+    background-color: var(--backgroundJs);
+}
+
+h2.js {
+    color: var(--h2JsColor);
+}
+
+@media screen and (max-width: 768px) {
+    .css {
+      background-color: var(--mediaJs);
+    }
+}
