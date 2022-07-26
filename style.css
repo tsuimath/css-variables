@@ -12,6 +12,11 @@
     justify-content: center;
 }
 
+.mediaquery {
+    display: flex;
+    justify-content: center;
+}
+
 :root {
     --backgroundCss: red;
     --h2CssColor: #FFFFFF;
