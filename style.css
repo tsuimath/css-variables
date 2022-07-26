@@ -14,8 +14,10 @@
 
 :root {
     --backgroundCss: red;
-    --h2CssColor: white;
-    --mediaJs: blue;
+    --h2CssColor: #FFFFFF;
+    --mediaqueryh2: #FFFFFF;
+    --mediaqueryBackground: #69DC9E;
+    --mediaqueryBackgroundMobile: blue;
 }
 
 .css {
@@ -34,8 +36,22 @@ h2.js {
     color: var(--h2JsColor);
 }
 
+@media screen and (min-width: 769px) {
+    .mediaquery {
+        background-color: var(--mediaqueryBackground);
+    }
+
+    h2.mediaquery {
+        color: var(--mediaqueryh2);
+    }
+}
+
 @media screen and (max-width: 768px) {
-    .css {
-      background-color: var(--mediaJs);
+    .mediaquery {
+      background-color: var(--mediaqueryBackgroundMobile);
+    }
+
+    h2.mediaquery {
+        color: var(--mediaqueryh2);
     }
 }
